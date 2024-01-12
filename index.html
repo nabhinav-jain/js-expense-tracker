@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Expense tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Expense Tracker</h2>
+    <!-- complete container -->
+    <div class="container">
+        <h4>Current Balance:</h4>
+        <h1 id="balance">$0.00</h1>
+         <!-- expense container to add minus moneyincome -->
+        <div class="i-e-container">
+            <div>
+                <h4>Income</h4>
+                <p id="money-plus" class="money-plus">$0.00</p>
+            </div>
+            <div>
+                <h4>Expense</h4>
+                <p id="money-minus" class="money-minus">$0.00</p>
+            </div>
+
+
+        </div>
+        <!-- ie containerend -->
+        <h3>History</h3>
+        <ul class="list" id="list">
+            <!-- <li class="minus">Cash <span>-$30</span><button class="delete-btn">x</button></li> -->
+        </ul>
+        <!-- area to add new Transcations after -->
+        <h3>Add new Transcations</h3>
+        <form action="" id="form">
+            <div class="form-control">
+                <label for="text">Information</label>
+                <input type="text" id="text" placeholder="Enter Information">
+            </div> 
+
+            <div class="form-control">
+                <label for="amount">Enter amount</label>
+                <input type="number" id="amount" placeholder="Enter amount">
+            </div>
+            <button class="btn">Add Transcation</button>
+        </form>
+
+
+        <!-- end of container div after -->
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
